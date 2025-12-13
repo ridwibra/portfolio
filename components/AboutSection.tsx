@@ -85,7 +85,7 @@ const AboutSection = () => {
                 ${
                   tab === t.id
                     ? "bg-primary-600 text-white shadow-md"
-                    : "bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-300 hover:bg-primary-500 hover:text-white"
+                    : "bg-gray-500 dark:bg-gray-700 text-gray-800 dark:text-gray-300 hover:bg-primary-500 hover:text-white"
                 }`}
             >
               {t.title}
