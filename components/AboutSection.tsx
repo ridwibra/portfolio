@@ -48,7 +48,7 @@ const TAB_DATA = [
       <div className="flex justify-center">
         <div className="bg-white dark:bg-gray-800 shadow-lg rounded-md border border-gray-200 dark:border-gray-700 overflow-hidden w-full md:w-[80%]">
           <iframe
-            src="\files\Dear Future Employers.pdf"
+            src="/files/Dear Future Employers.pdf"
             className="w-full h-[70vh] md:h-[80vh] rounded-md"
             title="Letter to Employer"
           />
@@ -81,11 +81,11 @@ const AboutSection = () => {
             <button
               key={t.id}
               onClick={() => setTab(t.id)}
-              className={`px-6 py-2 rounded-full font-semibold transition-colors duration-300 
+              className={`px-6 py-2 rounded-full font-semibold transition-colors duration-300
                 ${
                   tab === t.id
                     ? "bg-primary-600 text-white shadow-md"
-                    : "bg-gray-500 dark:bg-gray-700 text-gray-800 dark:text-gray-300 hover:bg-primary-500 hover:text-white"
+                    : "bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-300 hover:bg-primary-500 hover:text-white"
                 }`}
             >
               {t.title}
