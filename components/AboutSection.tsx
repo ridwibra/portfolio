@@ -84,7 +84,7 @@ const AboutSection = () => {
               className={`px-6 py-2 rounded-full font-semibold transition-colors duration-300
                 ${
                   tab === t.id
-                    ? "bg-teal-400 shadow-md text-black hover:text-white"
+                    ? "bg-teal-400  dark:bg-teal-600 shadow-md text-black hover:text-white"
                     : "bg-gray-400 dark:bg-gray-700 text-gray-800 dark:text-gray-300 hover:bg-primary-500 hover:text-white"
                 }`}
             >
