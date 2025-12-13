@@ -35,7 +35,7 @@ const TAB_DATA = [
           controls
           className="rounded-lg shadow-lg w-full md:w-3/4 h-[60vh] md:h-[70vh] border border-gray-200 dark:border-gray-700"
         >
-          <source src="/videos/teaching.mp4" type="video/mp4" />
+          <source src="\files\Ridwa.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
