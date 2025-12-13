@@ -31,13 +31,16 @@ const TAB_DATA = [
     id: "teaching",
     content: (
       <div className="flex justify-center">
-        <video
-          controls
-          className="rounded-lg shadow-lg w-full md:w-3/4 h-[60vh] md:h-[70vh] border border-gray-200 dark:border-gray-700"
-        >
-          <source src="\files\Ridwa.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <div className="rounded-lg shadow-lg w-full md:w-3/4 h-[60vh] md:h-[70vh] border border-gray-200 dark:border-gray-700 overflow-hidden">
+          <iframe
+            className="w-full h-full"
+            src="https://www.youtube.com/embed/MYfxmSmrA24"
+            title="Teaching Video"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
       </div>
     ),
   },
