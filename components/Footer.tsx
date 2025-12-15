@@ -15,7 +15,7 @@ const FooterComponent = () => {
       <div className="flex items-center gap-4">
         {/* Email */}
         <a
-          href="mailto:yourname@example.com"
+          href="#"
           className="hover:text-primary-500 dark:hover:text-primary-400 transition-colors"
         >
           <FaEnvelope size={18} />
@@ -23,7 +23,7 @@ const FooterComponent = () => {
 
         {/* GitHub */}
         <a
-          href="https://github.com/yourusername"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-primary-500 dark:hover:text-primary-400 transition-colors"
@@ -33,7 +33,7 @@ const FooterComponent = () => {
 
         {/* LinkedIn */}
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-primary-500 dark:hover:text-primary-400 transition-colors"
@@ -43,7 +43,7 @@ const FooterComponent = () => {
 
         {/* Twitter */}
         <a
-          href="https://twitter.com/yourusername"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-primary-500 dark:hover:text-primary-400 transition-colors"
